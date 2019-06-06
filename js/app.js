@@ -91,25 +91,25 @@ question5();
 //6th question begins
 var question6 = function(){
   var correctanswer = 4;
-  var tattoos = null;
-  var counter = 0;
+  // var tattoos = null;
+  var counter = 1;
 
   loop2:
-  while (counter < 4) {counter++;
+  while (counter <= 4) {
+    counter++;
     var tattooguess = prompt('How many tattoos do I have?');
-    for (var i = 0; i < tattoos; i++) {
-      if (tattooguess === correctanswer[i]) {
-        alert('Thats right!');
-        correctquestionsanswered++;
-        break loop2;
-      }
-    }
-    alert('Sorry, try again!');
-  }
-  if (counter > 4) {
-    alert('Sorry, you didnt get it!');
-  }
 
+    if (tattooguess === correctanswer || tattooguess === '4') {
+      alert('Thats right!');
+      correctquestionsanswered++;
+      break loop2;
+    } else{
+      alert('Sorry, try again!');
+    }
+    if (counter > 4) {
+      alert('Sorry, you didnt get it!');
+    }
+  }
 };
 question6();
 
