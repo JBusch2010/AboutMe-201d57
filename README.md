@@ -3,6 +3,12 @@ A website about me for lab assignment
 
 Browse the page after responding to the alerts
 
+06/05/2019 Update: now able to enter all caps for a "yes" "no" question and produce the correct alert. 
+Updated some of the css styling.
+Added top 10 movies section
+
+Added 2 more questions to the question game! Enjoy!
+
 License info is as follows:
 MIT License
 

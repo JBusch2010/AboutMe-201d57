@@ -1,19 +1,28 @@
 body {
-  background: black
+  background: grey;
 }
 
 
 h1 {
   color: yellow;
-  border: yellow 7px solid;
+  border: 7px solid black;
   border-radius: 20px;
 }
 
 h2 {
-  color: yellow;
+  color: black
 }
 
-p {
+h3 {
   color: yellow
+}
 
+ol {
+  color: black
+
+}
+div {
+  border: 3px solid black;
+  height: 210px;
+  width: 251px;
 }
