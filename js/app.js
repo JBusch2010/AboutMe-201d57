@@ -1,11 +1,13 @@
 'use strict';
 
+//Welcome prompt to the page
 var username = prompt('Welcome! What that name is?');
 alert('What up, ' + username + ' ! Sooooooo go ahead and take this little quiz that is selfishly all about me!');
 
 var correctquestionsanswered = 0;
 var totalQuestions = 7;
 
+//Question1 Begins
 var question1 = function(){
   var firstname = prompt('Did you know my first name is German?').toLowerCase();
 
@@ -22,7 +24,7 @@ var question1 = function(){
 };
 question1();
 
-
+//Question2 Begins
 var question2 = function(){
   var skateboard = prompt('Do you think I skateboard?').toLowerCase();
 
@@ -39,6 +41,7 @@ var question2 = function(){
 };
 question2();
 
+//Question3 Begins
 var question3 = function(){
   var gummybears = prompt('Did you know my favorite candy is gummy bears?').toLowerCase();
 
@@ -55,6 +58,7 @@ var question3 = function(){
 };
 question3();
 
+//Question4 Begins
 var question4 = function(){
   var Batman = prompt('Would you say my favorite superhero is Batman?').toLowerCase();
 
@@ -71,7 +75,7 @@ var question4 = function(){
 };
 question4();
 
-
+//Question5 Begins
 var question5 = function(){
   var georgia = prompt('Did you know that I am from georgia?').toLowerCase();
 
@@ -88,10 +92,9 @@ var question5 = function(){
 };
 question5();
 
-//6th question begins
+//Question6 Begins
 var question6 = function(){
   var correctanswer = 4;
-  // var tattoos = null;
   var counter = 1;
 
   loop2:
@@ -113,14 +116,14 @@ var question6 = function(){
 };
 question6();
 
-// 7th question begins
+//Question7 begins
 var question7 = function(){
   var formercars = ['ford', 'chevy', 'kia', 'nissan'];
   var carsattempts = 0;
 
   loop1:
   while (carsattempts < 6) {carsattempts++;
-    var carguess = prompt('Can you guess one of the 4 cars that I have previously drove?').toLowerCase(); //This will take the users answer and convert it into all lowercase.
+    var carguess = prompt('Can you guess one of the 4 cars that I have previously drove? (Hint: Think Make, not Model)').toLowerCase(); //This will take the users answer and convert it into all lowercase.
     for (var i = 0; i < formercars.length; i++) {
       if (carguess === formercars[i]) {
         alert('You got it! I have drove in ' + carguess + '! In total, I have drove ' + formercars);
@@ -137,5 +140,8 @@ var question7 = function(){
 };
 question7();
 
-//This final alert will notificy the user how many questions they answered correctly.
+//This final alert will notificy the user how many questions they were asked, and how many they answered correctly.
 alert('Thank you so much for to playing my game *mario vc* ' + username + ' you got ' + correctquestionsanswered + ' out of ' + totalQuestions + ' questions correct.');
+
+//beginning code for showing responses on page.
+//document.getElementById('realanswers').innerHTML = answerlist

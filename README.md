@@ -9,6 +9,8 @@ Added top 10 movies section
 
 Added 2 more questions to the question game! Enjoy!
 
+Worked with Melfi for pair programing and added functions to the questions. 
+
 License info is as follows:
 MIT License
 
