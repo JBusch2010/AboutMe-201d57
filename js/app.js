@@ -22,7 +22,6 @@ var question1 = function(){
   console.log(firstname + ' -Response to, Did you know my first name is German');
 
 };
-question1();
 
 //Question2 Begins
 var question2 = function(){
@@ -39,7 +38,6 @@ var question2 = function(){
   console.log(skateboard + ' -Response to, Do you think I skateboard');
 
 };
-question2();
 
 //Question3 Begins
 var question3 = function(){
@@ -56,7 +54,6 @@ var question3 = function(){
   console.log(gummybears + ' -Response to, Did you know my favorite candy is gummybears?');
 
 };
-question3();
 
 //Question4 Begins
 var question4 = function(){
@@ -73,7 +70,6 @@ var question4 = function(){
   console.log(Batman + ' -Response to, Would you say my favorite superhero is Batman?');
 
 };
-question4();
 
 //Question5 Begins
 var question5 = function(){
@@ -90,7 +86,6 @@ var question5 = function(){
   console.log(georgia + ' -Response to, Did you know that I am from georgia');
 
 };
-question5();
 
 //Question6 Begins
 var question6 = function(){
@@ -114,7 +109,6 @@ var question6 = function(){
     }
   }
 };
-question6();
 
 //Question7 begins
 var question7 = function(){
@@ -138,10 +132,14 @@ var question7 = function(){
   }
 
 };
+question1();
+question2();
+question3();
+question4();
+question5();
+question6();
 question7();
 
 //This final alert will notificy the user how many questions they were asked, and how many they answered correctly.
 alert('Thank you so much for to playing my game *mario vc* ' + username + ' you got ' + correctquestionsanswered + ' out of ' + totalQuestions + ' questions correct.');
 
-//beginning code for showing responses on page.
-//document.getElementById('realanswers').innerHTML = answerlist
